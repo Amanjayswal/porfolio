@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" type="" text/css" href="style.css">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+</head>
+
+<body>
+    <header class="header">
+        <a href="#" class="logo">Aman</a>
+        <div class="bx bx-menu" id="menu-icon"></div>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about" class="active">About</a>
+            <a href="#services" class="active">Services</a>
+            <a href="#portfolio" class="active">Portfolio</a>
+            <a href="#contact" class="active">Contact</a>
+            <span class="active-nav"></span>
+        </nav>
+        <a div class="bx bx-moon" id="darkMode-icon"></a>
+    </header>
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1>Hi, I'm <span>Aman Jaiswal</span></h1>
+            <div class="text-animation">
+                <h3>Data Analytical</h3>
+                <h3> From Biratnagar</h3>
+            </div>
+            <p>Recent graduate with a strong foundation in data science, including proficiency in Python and SQL. Eager to leverage technical expertise and continuous learning in a dynamic data-driven environment to drive actionable insights and support business 
+                objectives.</p>
+            <div class="social-media">
+                <a href="https://www.facebook.com/aman.jayswal.5458?mibextid=qi2Omg&rdid=WNjh2HnQl1P6gvFl&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2FN7LXHuTa3iaMupAp%2F%3Fmibextid%3Dqi2Omg"><i class='bx bxl-facebook'></i></a>
+                <a href="https://www.instagram.com/alex.aman.js/?igsh=aXNuZTA1OTR4N2lh"><i class='bx bxl-instagram'></i></a>
+                <a href="https://github.com/Amanjayswal/"><i class='bx bxl-github'></i></a>
+                <a href="https://www.linkedin.com/in/aman-jaiswal-599893253/"><i class='bx bxl-linkedin'></i></a>
+            </div>
+
+            <a href="cv2.pdf" download class="btn">Download CV</a>
+        </div>
+        <div class="home-img"></div>
+    </section>
+
+    <!-- about sesction in the porfolio -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="back.jpg" alt="">
+                    <span class="circle-spin"></span>
+                </div>
+                <div class="about-col-2">
+                    <h1 class="heading">About <span>Me</span></h1>
+                    <h3>Hello, Welcome</h3>
+                    <p>About Myself and skills
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2023-2024</span><br>Develop AI Autonomous Cryptocurrency Bot</li>
+                            <li><span>2021-2022</span><br> Done project Data analytics</li>
+                            <li><span>2020-2021</span><br>Acquire Knowledge Python, Power BI and SQL etc..</li>
+                            
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2020-24</span><br> B.Tect from SVCET,Chittoor</li>
+                            <li><span>2018-2020</span><br>Intermediate from T.N.B College BSEB, Bhagalpur, Bihar - 812007 </li>
+                            <li><span>School level</span><br>TNH School Rangra</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="skills" id="skills">
+        <h2 class="heading">My <span>Skills</span></h2>
+        <div class="skills-row">
+            <div class="skills-column">
+                <h3 class="titles">Technical Skills</h3>
+                <div class="skills-box">
+                    <div class="skills-content">
+                        <div class="progress">
+                            <h3>HTML <span>90%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                        <div class="progress">
+                            <h3>CSS <span>75%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                        <div class="progress">
+                            <h3>SQL <span>55%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                        <div class="progress">
+                            <h3>Python <span>70%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                        <div class="progress">
+                            <h3>Power Bi<span>70%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                        <div class="progress">
+                            <h3>Data Analysis<span>70%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="skills-column">
+                <h3 class="titles">Non-Technical Skills</h3>
+                <div class="skills-box">
+                    <div class="skills-content">
+                        <div class="progress">
+                            <h3>Communication Skills<span>90%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                        <div class="progress">
+                            <h3>Good Computer Skills<span>85%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                        <div class="progress">
+                            <h3>MS Office Skills<span>60%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                        <div class="progress">
+                            <h3>Team Leading<span>60%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a href="skiils.html" class="btns">ReadMore</a>
+    </section>
+
+
+    <!--services about the portfolio-->
+    <section class="services" id="services">
+        <h2 class="heading">My <span>Services</span></h2>
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bxs-data'></i>
+                <h3>Data Analytical</h3>
+                <p>Data analytics is the science of analyzing raw data to make conclusions about that information. Many
+                    of the techniques and processes of data analytics have been automated into mechanical processes and
+                    algorithms.</p>
+                <a href="service3.html" class="btn">Read More</a>
+            </div>
+            <div class="services-box"> 
+                <i class='bx bx-code-alt'></i>
+                <h3>Power Bi Developer</h3>
+                <p>Power BI is a suite of business analytics tools designed to deliver insights and enable data-driven decision-making. It provides a range of capabilities to transform raw data into meaningful visualizations and interactive reports. 
+                     </p>
+                <a href="service1.html" class="btn">Read More</a>
+            </div>
+
+
+            <div class="services-box">
+                <i class='bx bxl-python'></i>
+                <h3>Python & machine learning</h3>
+                <p>Python is Backend and Machine Learning is the ability of the computer to learn without being
+                    explicitly programmed. Python is to use in machine learning because it offers developers exceptional
+                    versatility and power while integrating with other software</p>
+                <a href="service2.html" class="btn">Read More</a>
+            </div>
+
+
+          
+        </div>
+    </section>
+
+
+    <!--portfolio section design-->
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Lastest <span>Project</span></h2>
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="new1.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Data Analytics dashboard </h4>
+                    <p>Sales stores Data Analytics dashboard by Excel.</p>
+                    <a href="https://github.com/Amanjayswal/Vindra-Store-Sales-report-Dashboard"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="new3.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Supermarket Forecasting </h4>
+                    <p>	Sales Supermarket Forecasting using Power Bi</p>
+                    <a href="https://github.com/Amanjayswal/Supermarket_Sales_Forecasting.by_Bharat-Intern"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="new2.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Ecommerce Sales Dashboard</h4>
+                    <p>Ecommerce Sales Dashboard using Power Bi.</p>
+                    <a href="https://github.com/Amanjayswal/Jaiswal_Supermarket_Sales_Dashboard"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="new5.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>HR Data Analytics </h4>
+                    <p>HR Data Analytics using Power Bi.</p>
+                    <a href="https://github.com/Amanjayswal/Employee_Attrition_and_Performance_Analysis.by_Bharat-Intern"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            
+            <div class="portfolio-box">
+                <img src="new6.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>World class sales report</h4>
+                    <p>World-Scale-Ecommerce-Sales-Report-Analysis.</p>
+                    <a href="https://github.com/Amanjayswal/World-Scale-Ecommerce-Sales-Report-Analysis"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--testimonial-container-->
+    <div class="testimonial-container">
+        <h2 class="heading">Valuable <span>Tutor</span></h2>
+
+        <div class="testimonial-wrapper">
+            <div class="testmonial-box mySwiper">
+                <div class="testimonial-content swiper-wrapper">
+                    <div class="testimonial-slide swiper-slide">
+                        <img src="har.jpg" alt="">
+                        <h3>Mr. Hare Ram Singh</h3>
+                        <p>He is My professor<br>He helps in worst time and guide me like a family member. He is one of the
+                        best teacher I ever made  in my life. He createa an enviornment to read and learning.</p>
+
+                    </div>
+                    <div class="testimonial-slide swiper-slide">
+                        <img src="maal.jpg" alt="">
+                        <h3>Mrs.Malika Srivastava</h3>
+                        <p>she is one of the finest Mentor that works on the Technex company and She used to give
+                            training to the students in order to make them as a strong candidate for the Job. She has a
+                            good influenced on the students positvely and make a students understandable clearly. </p>
+
+                    </div>
+                    
+                    <div class="testimonial-slide swiper-slide">
+                        <img src="man.jpg" alt="">
+                        <h3>Mrs.Manju devi</h3>
+                        <p> My mother has always been my biggest motivation in life. From the moment I was born, she has been there for me, guiding me through every step and teaching me valuable life lessons. 
+                            Her unwavering support, strength, and love have shaped me into the person I am today.</p>
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!---contact section-->
+
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h2 class="heading">Contact <span>Me!</span></h2>
+                    <p><i class='bx bxs-send'></i> jayswalaman50@gmail.com</p>
+                    <p><i class='bx bxs-phone-call'></i> +91 9128964119</p>
+                    <div class="social-media">
+                        <a href="https://www.facebook.com/aman.jayswal.5458?mibextid=qi2Omg&rdid=LhHZHrc2jBavGyO3&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2FN7LXHuTa3iaMupAp%2F%3Fmibextid%3Dqi2Omg"><i class='bx bxl-facebook'></i></a>
+                        <a href="https://www.instagram.com/alex.aman.js/?igsh=aXNuZTA1OTR4N2lh"><i class='bx bxl-instagram'></i></a>
+                        <a href="https://github.com/Amanjayswal"><i class='bx bxl-github'></i></a>
+                        <a href="https://www.linkedin.com/in/aman-jaiswal-599893253/"><i
+                                class='bx bxl-linkedin'></i></a>
+                    </div>
+                </div>
+
+                <form name="submit-to-google-sheet">
+                    <div class="input-box">
+                        <div class="input-field">
+                            <input type="text" name="Name" placeholder="Full Name" required>
+                            <span class="focus"></span>
+                        </div>
+                        <div class="input-field">
+                            <input type="text" name="E-Mail" placeholder="E-mail ID" required>
+                            <span class="focus"></span>
+                        </div>
+                    </div>
+                    <div class="input-box">
+                        <div class="input-field">
+                            <input type="number" name="Number" placeholder="Mobile Number" required>
+                            <span class="focus"></span>
+                        </div>
+                        <div class="input-field">
+                            <input type="text" name="Subject" placeholder="E-mail Subject" required>
+                            <span class="focus"></span>
+                        </div>
+                    </div>
+                    <div class="textarea-field">
+                        <textarea name="Message" id="" cols="30" rows="10" placeholder="Your Message"
+                            required></textarea>
+                        <span class="focus"></span>
+                    </div>
+                    <div class="btn-box btnss"></div>
+                    <button type="submit" class="btn">submit</button>
+                </form>
+
+            </div>
+            <span id="msg"></span>
+        </div>
+
+    </section>
+    <!--footer section-->
+
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2023 by Code | All Right Reserved.</p>
+        </div>
+        <div class="footer-iconTop">
+            <a href="#"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycby5AvajHYGajglocCEt549SyQfiw642NUx5WSe0NJXs7mrk4vWUQ_fLGA8B-F_YhPo5iA/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Message sent succefully"
+                    setTimeout(function () {
+                        msg.innerHTML = ""
+                    }, 5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+    <!--scrollrev-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!--swiper js-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
